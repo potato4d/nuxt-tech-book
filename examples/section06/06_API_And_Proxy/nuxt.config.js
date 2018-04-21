@@ -14,6 +14,9 @@ module.exports = {
   /*
   ** Customize the progress bar color
   */
+  router: {
+    base: '/examples/section06/06_API_And_Proxy'
+  },
   modules: ["@nuxtjs/axios", "@nuxtjs/proxy"],
   proxy: {
     "/api/v2": "http://qiita.com"
