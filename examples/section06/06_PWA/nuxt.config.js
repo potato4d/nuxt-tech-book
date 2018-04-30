@@ -13,9 +13,9 @@ module.exports = {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
-  router: {
-    base: '/examples/section06/06_PWA'
-  },
+  // router: {
+  //   base: '/nuxt-tech-book/examples/section06/06_PWA'
+  // },
   modules: [
     '@nuxtjs/pwa'
   ],
